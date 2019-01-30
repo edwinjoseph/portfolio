@@ -4,5 +4,9 @@
   "description": "The personal and portfolio site for Edwin Joseph",
   "main": "build/index.js",
   "author": "Edwin Joseph",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  }
 }

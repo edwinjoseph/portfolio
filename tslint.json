@@ -1,0 +1,40 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "build/**/*",
+      "src/tests/**/*"
+    ]
+  },
+  "jsRules": {},
+  "rules": {
+    "arrow-return-shorthand": true,
+    "eofline": true,
+    "indent": [true, "spaces", 2],
+    "interface-name": false,
+    "interface-over-type-literal": true,
+    "no-consecutive-blank-lines": true,
+    "no-irregular-whitespace": true,
+    "no-redundant-jsdoc": true,
+    "no-string-literal": false,
+    "no-trailing-whitespace": true,
+    "object-literal-sort-keys": false,
+    "ordered-imports": true,
+    "prefer-const": true,
+    "prefer-method-signature": true,
+    "prefer-readonly": true,
+    "prefer-template": true,
+    "quotemark": [true, "single", "avoid-escape"],
+    "semicolon": [true, "always"],
+    "space-within-parens": true,
+    "space-before-function-paren": [true, {"anonymous": "always", "named": "never", "asyncArrow": "always"}],
+    "trailing-comma": true,
+    "unified-signatures": false,
+    "variable-name": [true, "check-format", "ban-keywords", "allow-leading-underscore"],
+    "whitespace": [true, "check-module"]
+  },
+  "rulesDirectory": []
+}
