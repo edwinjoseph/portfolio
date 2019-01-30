@@ -1,0 +1,8 @@
+{
+  "name": "edwinjoseph",
+  "version": "1.0.0",
+  "description": "The personal and portfolio site for Edwin Joseph",
+  "main": "build/index.js",
+  "author": "Edwin Joseph",
+  "license": "MIT"
+}
