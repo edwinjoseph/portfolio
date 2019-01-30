@@ -14,7 +14,8 @@
     "express": "^4.16.4",
     "lodash": "^4.17.11",
     "pino": "^5.11.1",
-    "pino-pretty": "^2.5.0"
+    "pino-pretty": "^2.5.0",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
     "@types/config": "^0.0.34",

@@ -1,9 +1,13 @@
 import express, { Application } from 'express';
 
+// Express
+import configureViewEngine from './express/configure-view-engine';
+
 // Routes
 import homepage from './routes/homepage';
 
 async function configureApp(app: Application): Promise<void> {
+  configureViewEngine(app);
   homepage(app);
 }
 
