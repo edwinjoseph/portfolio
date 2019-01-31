@@ -20,7 +20,10 @@ export default function (): Config {
     port: toInt(config.util.getEnv('PORT')),
   }, isNil);
 
-  const mergedConfig = config.util.extendDeep({}, defaultConfig, envConfig);
+  const mergedConfig = {
+    ...defaultConfig,
+    ...envConfig,
+  };
 
   for (const [key, value] of Object.entries(mergedConfig)) {
     if (value === undefined) {
