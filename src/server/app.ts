@@ -1,6 +1,7 @@
 import express, { Application } from 'express';
 
 // Express
+import configureSSL from './express/configure-ssl';
 import configureViewEngine from './express/configure-view-engine';
 
 // Routes
@@ -9,6 +10,7 @@ import homepage from './routes/homepage';
 import errorHandler from './middleware/errorHandler';
 
 async function configureApp(app: Application): Promise<void> {
+  configureSSL(app);
   configureViewEngine(app);
   homepage(app);
 

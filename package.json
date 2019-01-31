@@ -14,6 +14,7 @@
     "@types/lodash": "^4.14.120",
     "config": "^3.0.1",
     "express": "^4.16.4",
+    "heroku-ssl-redirect": "^0.0.4",
     "lodash": "^4.17.11",
     "pino": "^5.11.1",
     "pino-pretty": "^2.5.0",
