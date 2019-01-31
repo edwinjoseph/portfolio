@@ -6,7 +6,9 @@
   "author": "Edwin Joseph",
   "license": "MIT",
   "scripts": {
-    "start:watch": "nodemon ./build | pino-pretty"
+    "build": "tsc",
+    "start:watch": "nodemon ./build | pino-pretty",
+    "heroku-postbuild": "./config/heroku/postbuild.sh"
   },
   "dependencies": {
     "@types/lodash": "^4.14.120",
@@ -24,5 +26,9 @@
     "nodemon": "^1.18.9",
     "tslint": "^5.12.1",
     "typescript": "^3.2.4"
+  },
+  "engines": {
+    "node": "11.3.0",
+    "yarn": "1.12.3"
   }
 }
