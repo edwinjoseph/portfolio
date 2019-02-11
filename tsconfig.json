@@ -5,10 +5,9 @@
     "module": "commonjs",
     "target": "es2017",
     "moduleResolution": "node",
-    "inlineSourceMap": true,
-    "inlineSources": true,
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "jsx": "react"
   },
   "exclude": [
     "node_modules",
