@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 import logger from '../../common/logger';
 
-import cacheControl from './cacheControlHandler';
+import cacheControl from './cache-control-handler';
 
 import HTTPError from '../errors/HTTPError';
 import renderError from '../handlers/render-error';

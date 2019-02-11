@@ -1,5 +1,5 @@
 import { IRouter, Request, Response } from 'express';
-import wrapRequestHandler from '../middleware/requestHandler';
+import wrapRequestHandler from '../middleware/request-handler';
 import render from '../handlers/render-react';
 
 export default function (route: IRouter<never>): void {

@@ -1,5 +1,5 @@
 import { NextFunction, Request, RequestHandler, Response } from 'express';
-import requestErrorHandler from './requestErrorHandler';
+import requestErrorHandler from './request-error-handler';
 
 export default function (fn: RequestHandler): RequestHandler {
   return async (req: Request, res: Response, next: NextFunction) => {
