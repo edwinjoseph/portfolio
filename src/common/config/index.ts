@@ -10,6 +10,7 @@ export default function (): Config {
   // the Config interface, however the return value should.
   const defaultConfig: any = {
     port: toInt(config.get('port')) || undefined,
+    useHTTPS: !!config.get('useHTTPS')
   };
 
   for (const [key, value] of Object.entries(defaultConfig)) {
