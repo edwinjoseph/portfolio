@@ -94,6 +94,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/ua-parser-js@^0.7.32":
+  version "0.7.32"
+  resolved "https://registry.yarnpkg.com/@types/ua-parser-js/-/ua-parser-js-0.7.32.tgz#8827d451d6702307248073b5d98aa9293d02b5e5"
+  integrity sha512-+z7Q72Mlnq6SFkQYHzLg2Z70pIsgRVzgx1b5PV8eUv5uaZ/zoqIs45XnhtToW4gTeX4FbjIP49nhIjyvPF4rPg==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
