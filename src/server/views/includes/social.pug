@@ -1,0 +1,22 @@
+- let social;
+- if (model && model.head && model.head.socal) {
+-   social = model.head.social;
+- }
+
+meta(property="og:type" content="website")
+
+if social
+    meta(property="og:url" content=social.url)
+    meta(property="og:title" content=social.title)
+    meta(property="og:description" content=social.description)
+
+    if social.image
+        meta(property="og:image" content=social.image.url)
+        meta(property="og:image:secure_url" content=social.image.url)
+        meta(property="og:image:width" content=social.image.width)
+        meta(property="og:image:height" content=social.image.height)
+        if social.image.alt
+            meta(property="og:image:alt" content=social.image.alt)
+
+meta(property="og:site_name" content="Edwin Joseph | Portfolio")
+meta(property="og:locale" content="en-GB")
