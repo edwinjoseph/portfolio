@@ -3,16 +3,7 @@ import { Request } from 'express';
 import * as React from 'react';
 import * as ReactDOM from 'react-router';
 
-function App(props: any) {
-  return (
-    <div>
-      <p>Hello there!</p>
-      <pre>
-        {JSON.stringify(props.model, null, 2)}
-      </pre>
-    </div>
-  );
-}
+import App from '../../client/view/App';
 
 export default function (req: Request, model: any) {
   return (
