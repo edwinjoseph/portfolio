@@ -5,3 +5,6 @@ block head
     include includes/social
 block content
     #app!=html
+
+    script.
+      window.model = !{ serialize(model.client) }
