@@ -19,6 +19,7 @@
     "lodash": "^4.17.11",
     "pino": "^5.11.1",
     "pino-pretty": "^2.5.0",
+    "prismic-javascript": "^2.0.1",
     "pug": "^2.0.3",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
