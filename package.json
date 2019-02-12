@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "webpack:all": "webpack --config ./config/webpack/all.js",
     "start:watch": "nodemon ./build | pino-pretty",
     "heroku-postbuild": "./config/heroku/postbuild.sh"
   },
@@ -33,9 +34,14 @@
     "@types/react-router": "^4.4.3",
     "@types/react-router-dom": "^4.3.1",
     "@types/ua-parser-js": "^0.7.32",
+    "awesome-typescript-loader": "^5.2.1",
     "nodemon": "^1.18.9",
+    "source-map-loader": "^0.2.4",
+    "terser-webpack-plugin": "^1.2.2",
     "tslint": "^5.12.1",
-    "typescript": "^3.2.4"
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
   },
   "engines": {
     "node": "11.3.0",
