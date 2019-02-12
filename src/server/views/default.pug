@@ -3,8 +3,15 @@ block head
     include includes/first
     include includes/essential
     include includes/social
+
+    each file in styles
+        link(rel='stylesheet' href=file)
+
 block content
     #app!=html
 
     script.
       window.model = !{ serialize(model.client) }
+
+    each file in scripts
+        script(src=file)
